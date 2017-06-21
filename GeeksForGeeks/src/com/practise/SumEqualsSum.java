@@ -35,4 +35,3 @@ public class SumEqualsSum {
 		}
 	}
 }
->>>>>>> f84ec7f8b33b3631f944f90c450e9db422390e5f
