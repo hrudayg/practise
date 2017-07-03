@@ -1,5 +1,10 @@
 package com.practise.trees;
 
+/*
+ * http://www.geeksforgeeks.org/convert-an-arbitrary-binary-tree-to-a-tree-that-holds-children-sum-property/
+ * 
+ */
+
 public class ConvertToChildSumTree {
 	public static void main(String[] args) {
 		int[] input = { 50, 7, 2, 3, 5, 1};
