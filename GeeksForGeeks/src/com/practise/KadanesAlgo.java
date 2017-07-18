@@ -1,5 +1,8 @@
 package com.practise;
-
+/*
+ * http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+ * 
+ */
 import java.util.Scanner;
 
 public class KadanesAlgo {
