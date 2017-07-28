@@ -11,13 +11,13 @@ import java.util.Arrays;
 public class SortZeroOneTwo {
 
 	public static void main(String[] args) {
-		int[] input = {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1};
+		int[] input = {0, 1, 0, 2, 1, 1};
 		sortZeroOneTwo(input);
 	}
 
 	private static void sortZeroOneTwo(int[] input) {
 		int start = 0;
-		int mid = start + 1;
+		int mid = start;
 		int end = input.length - 1;
 		int temp = 0;
 		while (mid < end) {
