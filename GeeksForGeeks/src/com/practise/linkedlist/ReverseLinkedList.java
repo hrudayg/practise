@@ -16,13 +16,13 @@ public class ReverseLinkedList {
 	}
 
 	private static LinkedListNode reverseRecursive(LinkedListNode head) {
-			if (head == null || head.next == null) {  
-			    return head;  
-			}
-			LinkedListNode remaining = reverseRecursive(head.next);
-			head.next.next = head; 
-			head.next = null;  
-			return remaining; 
+		if (head == null || head.next == null) {  
+		    return head;  
+		}
+		LinkedListNode remaining = reverseRecursive(head.next);
+		head.next.next = head; 
+		head.next = null;  
+		return remaining; 
 	}
 
 	private static void reverse(LinkedList aList) {
