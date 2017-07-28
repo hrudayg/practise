@@ -1,4 +1,4 @@
-package com.gojek;
+package com.practise.parkinglot;
 
 import java.util.Comparator;
 

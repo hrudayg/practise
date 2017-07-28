@@ -1,4 +1,4 @@
-package com.gojek;
+package com.practise.parkinglot;
 
 public class Vehicle {
 	
