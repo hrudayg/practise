@@ -13,14 +13,8 @@ public class CountEvenLength {
 	}
 
 	private static void countEvenLength(int length) {
-		StringBuffer sb = new StringBuffer();
-		while(length > 0){
-			sb.append("0");
-			length--;
-		}
-		
-		System.out.println(sb.toString());
-		//findAllCombinationsOfLength(sb.toString(), 0, sb.toString().length());
+		StringBuffer sb = new StringBuffer("");
+		findAllCombinations(sb.toString(), length);
 	}
 
 	private static void findAllCombinations(String result, int length) {
