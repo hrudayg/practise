@@ -1,7 +1,12 @@
 package com.practise.sorting;
 
 import java.util.Arrays;
-
+/**
+ * 
+ * http://www.geeksforgeeks.org/pancake-sorting/
+ * @author hruday.g
+ *
+ */
 public class PancakeSorting {
 
 	public static void main(String[] args) {
