@@ -1,5 +1,6 @@
 package com.threads.fina;
 
+import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -22,5 +23,7 @@ public final class FinalUse {
 		System.out.println(finalUse.planets);
 		finalUse.planets.add("new planet");
 		System.out.println(finalUse.planets);
+		// You cant do the below assignment as we have declared the planets to be final	
+		//finalUse.planets = new HashSet<>();
 	}
 }
