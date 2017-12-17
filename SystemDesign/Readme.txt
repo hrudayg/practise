@@ -6,3 +6,6 @@ http://horicky.blogspot.in/2009/11/nosql-patterns.html
 
 
 https://www.gitbook.com/book/bagder/http2-explained
+
+
+https://code.tutsplus.com/tutorials/http-headers-for-dummies--net-8039
